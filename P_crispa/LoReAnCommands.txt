@@ -1,0 +1,6 @@
+lorean.py -cme 10 -t 30 -sr SRR1577770_1.sub.fastq,SRR1577770_2.sub.fastq -w annotationStranded/ -lr SRR5077.fastq -a adapter.fasta -d -ee 50 -sp crispa -pr fungalProteins.fasta Plicr1_AssemblyScaffolds.fasta 
+lorean.py -cme 10 -t 30 -sr SRR1577770_1.sub.fastq,SRR1577770_2.sub.fastq -w annotationNonStranded/ -lr SRR5077.fastq -ee 50 -pr fungalProteins.fasta -sp crispa Plicr1_AssemblyScaffolds.fasta 
+lorean.py -cme 10 -t 30 -sr SRR1577770_1.sub.fastq,SRR1577770_2.sub.fastq -w annotationStrandedMasked/ -r Plicr1_AssemblyScaffolds_Repeatmasked.mod.bed -lr SRR5077.fastq -a adapter.fasta -d -ee 50 -sp crispa -pr fungalProteins.fasta Plicr1_AssemblyScaffolds.fasta 
+lorean.py -cme 10 -t 30 -sr SRR1577770_1.sub.fastq,SRR1577770_2.sub.fastq -w annotationNonStrandedMasked/ -lr SRR5077.fastq -r Plicr1_AssemblyScaffolds_Repeatmasked.mod.bed -ee 50 -pr fungalProteins.fasta -sp crispa Plicr1_AssemblyScaffolds.fasta 
+
+

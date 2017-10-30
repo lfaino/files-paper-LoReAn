@@ -1,0 +1,2 @@
+Bam_file	TIN(mean)	TIN(median)	TIN(stdev)
+STAR_shortreadsAligned.out.bam.sorted.bam	82.823176766	87.7256081928	14.253969551
