@@ -1,0 +1,22 @@
+Annotation:	../gtf/VDAG_Jr2_Annotation.v5.gtf					
+Predictions:			 maker.gtf.subset.gtf	BAP.FGS_Fu.gtf.subset.gtf	FGS_Fu.gtf.subset.gtf	CodingQuarry.gtf.bed12.subset.mod.gtf
+Transcript						
+	All					
+		Count                    	351	180	437	461
+		Average Length           	774.45	697.18	742.24	465.92
+		Median Length            	592	579	582	366
+		Total Length             	271831	125492	324360	214788
+		Average Coding Length    	565.21	609.11	388.76	0
+		Median Coding Length     	453	531	318	0
+		Total Coding Length      	198390	109639	169887	0
+		Average Score            	0	0	0	337.53
+		Total Score              	0	0	0	155600
+		Ave Exons Per            	2.29	1.52	1.8	0
+		Med Exons Per            	2	1	2	0
+		Total Exons              	804	273	787	0
+		Consistent Pred Count    	48	4	42	0
+		Consistent Ann Count     	48	4	42	0
+		Consistent Specificity   	13.68%	2.22%	9.61%	0.00%
+		Consistent Sensitivity   	0.42%	0.03%	0.37%	0.00%
+		Exact Pred Count         	48	4	42	0
+		Exact Ann Count          	48	4	42	0

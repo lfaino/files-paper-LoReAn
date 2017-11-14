@@ -1,5 +1,8 @@
-,large 1 exon more 75,large 1 exon less  75,equal 1 exon less 75,equal 1 exon more 75
-maker,176,159,10,6
-lorean ,183,58,17,93
-bap,20,44,75,41
-cq,101,52,76,122
+,large 1 exon more 75,large 1 exon less  75,equal 1 exon less 75,equal 1 exon more 75,total,large 1 exon more 75,large 1 exon less  75,equal 1 exon less 75,equal 1 exon more 75
+maker,176,159,10,6,351,50.14%,45.30%,2.85%,1.71%
+lorean ,241,69,17,110,437,55.15%,15.79%,3.89%,25.17%
+bap,20,44,75,41,180,11.11%,24.44%,41.67%,22.78%
+cq,140,64,104,153,461,30.37%,13.88%,22.56%,33.19%
+,,,,,,,,,
+,,,,,,,,,
+,violet,blue,red,green,,violet,blue,red,green

@@ -1,4 +1,4 @@
-setwd("C:/Users/luigi/Dropbox/LoReAn_paper/Data/files-paper-LoReAn/V_dahliae/newGtf/orthomcl")
+setwd("C:/Users/luigi/Dropbox/LoReAn_paper/Data/files-paper-LoReAn/V_dahliae/orthomcl/")
 library(ggplot2)
 library(gridExtra)
 library(scales)
