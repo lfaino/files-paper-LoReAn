@@ -7,7 +7,7 @@ library(ggrepel)
 
 ##############################################
 ######## Introns #############################
-JR2_intron <- read.csv("./../files-paper-LoReAn/V_dahliae/newGtf/onlyIntrons.csv", header=T, fill=T)
+JR2_intron <- read.csv("./../files-paper-LoReAn/V_dahliae/intron//onlyIntrons.csv", header=T, fill=T)
 
 
 acclines2 <- data.frame(
@@ -23,9 +23,8 @@ intron.jr <- ggplot(JR2_intron, aes(x=spe_intro, y=sens_intro)) +
   geom_segment(aes(x=x, y=y, xend=xend, yend=yend, color=color), linetype="dashed", data=acclines2) +
   coord_cartesian(ylim=c(60, 85), xlim=c(60, 80)) +
   geom_label_repel(
-    aes(fill = annot, label = annot),
-    #, label= ifelse(acc_intro > 77.7 | acc_intro < 71 | annot == "VDAG_Jr2_Annotation.v5.introns" | annot == "CodingQuarry_out_PredictedPass.gff3.introns", as.character(annot),"")),
-    fontface = 'plain',  color ="white", size= 1.25,
+    aes(fill = JR2_intron$annot, label= ifelse(acc_intro > 75 | acc_intro < 68 | annot == "GeneMArks_Fu.gtf.introns" | annot == "VDAG_Jr2_Annotation.v5.introns" | annot == "CodingQuarry_out_PredictedPass.gff3.introns", as.character(JR2_intron$annot),"")),
+    fontface = 'plain',  color ="white", size= 2.5,
     box.padding= unit(0.35, "lines"),
     point.padding= unit(0.5, "lines"),
     force = 2, 

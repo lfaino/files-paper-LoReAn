@@ -1,8 +1,8 @@
 di 17 okt 2017 21:27:05 CEST
 
 **Summary Stats**
-Annotation:	Plicr1.filtered_proteins.FilteredModels1.gff3.gtf
-Predictions:             	augustus.gff3.gtf	BAP.gff3.gtf	BAPplus.gff3.gtf	genemark-ES.gff3.gtf	maker.gff3.gtf	FGS.gff3.gtf	FGnS.gff3.gtf	MGnS.gff3.gtf	MGS.gff3.gtf
+Annotation:	Plicr1.filtered_proteins.FilteredModels1
+Predictions:             	Augustus	BAP	BAP+	GeneMark-ES	MAKER2	LoReAn_s	LoReAn	LoReAn_M	LoReAn_s_M
 
 Gene Sensitivity         	36.66%    	40.41%    	40.35%    	32.68%    	18.26%    	37.82%    	37.66%    	37.66%    	37.72%    
 Gene Specificity         	42.91%    	46.54%    	47.47%    	39.07%    	28.44%    	40.36%    	38.68%    	38.77%    	40.24%    
@@ -15,7 +15,7 @@ Nucleotide Specificity   	97.10%    	97.14%    	97.24%    	96.87%    	97.56%    
 
 **General Stats**
 Predictions:
-		                         	Plicr1.filtered_proteins.FilteredModels1.gff3.gtf	augustus.gff3.gtf	BAP.gff3.gtf	BAPplus.gff3.gtf	genemark-ES.gff3.gtf	maker.gff3.gtf	FGS.gff3.gtf	FGnS.gff3.gtf	MGnS.gff3.gtf	MGS.gff3.gtf
+		                         	Plicr1.filtered_proteins.FilteredModels1	Augustus	BAP	BAP+	GeneMark-ES	MAKER2	LoReAn_s	LoReAn	LoReAn_M	LoReAn_s_M
 Gene
 	All                      
 		Count                    	13626.00  	11640.00  	11831.00  	11583.00  	11396.00  	8602.00   	12828.00  	14698.00  	14690.00  	12821.00  
@@ -179,7 +179,7 @@ Signal
 
 **Detailed Stats**
 Annotation:	Plicr1.filtered_proteins.FilteredModels1.gff3.gtf
-Predictions:	                         augustus.gff3.gtf	BAP.gff3.gtf	BAPplus.gff3.gtf	genemark-ES.gff3.gtf	maker.gff3.gtf	FGS.gff3.gtf	FGnS.gff3.gtf	MGnS.gff3.gtf	MGS.gff3.gtf
+Predictions:	                         Augustus	BAP	BAP+	GeneMark-ES	MAKER2	LoReAn_s	LoReAn	LoReAn_M	LoReAn_s_M
 Gene
 	All
 		Count                    	11640.00  	11831.00  	11583.00  	11396.00  	8602.00   	12828.00  	14698.00  	14690.00  	12821.00  

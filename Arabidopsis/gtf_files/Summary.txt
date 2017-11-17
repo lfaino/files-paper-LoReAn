@@ -1,8 +1,8 @@
 zo  1 okt 2017 22:10:47 CEST
 
 **Summary Stats**
-Annotation:	TAIR10_GFF3_genes.gtf
-Predictions:             	annotationStranded.gtf	annotationStrandedMasked.gtf	annotationNonStranded.gtf	annotationNonStrandedMasked.gtf	augustus.gtf	BAP.gtf   	BAPplus.gtf	genemark.gtf	maker.TAIR.gtf
+Annotation:	TAIR10_gene
+Predictions:             	LoReAn_s	LoReAn_s_M	LoReAn	LoReAn_M	Augustus	BAP.gtf   	BAP+	GeneMark-ES	MAKER2
 
 Gene Sensitivity         	63.58%    	62.31%    	63.57%    	62.24%    	55.83%    	60.08%    	62.95%    	50.28%    	30.76%    
 Gene Specificity         	59.84%    	69.75%    	59.80%    	69.58%    	54.76%    	57.08%    	59.21%    	43.97%    	56.64%    
@@ -15,7 +15,7 @@ Nucleotide Specificity   	91.87%    	98.40%    	91.88%    	98.40%    	90.94%    
 
 **General Stats**
 Predictions:
-		                         	TAIR10_GFF3_genes.gtf	annotationStranded.gtf	annotationStrandedMasked.gtf	annotationNonStranded.gtf	annotationNonStrandedMasked.gtf	augustus.gtf	BAP.gtf   	BAPplus.gtf	genemark.gtf	maker.TAIR.gtf
+		                         	TAIR10_gene	LoReAn_s	LoReAn_s_M	LoReAn	LoReAn_M	Augustus	BAP.gtf   	BAP+	GeneMark-ES	MAKER2
 Gene
 	All                      
 		Count                    	27416.00  	29145.00  	24504.00  	29313.00  	24665.00  	27954.00  	28861.00  	29152.00  	31358.00  	14881.00  
@@ -178,8 +178,8 @@ Signal
 
 
 **Detailed Stats**
-Annotation:	TAIR10_GFF3_genes.gtf
-Predictions:	                         annotationStranded.gtf	annotationStrandedMasked.gtf	annotationNonStranded.gtf	annotationNonStrandedMasked.gtf	augustus.gtf	BAP.gtf   	BAPplus.gtf	genemark.gtf	maker.TAIR.gtf
+Annotation:	TAIR10_gene
+Predictions:	                         LoReAn_s	LoReAn_s_M	LoReAn	LoReAn_M	Augustus	BAP.gtf   	BAP+	GeneMark-ES	MAKER2
 Gene
 	All
 		Count                    	29145.00  	24504.00  	29313.00  	24665.00  	27954.00  	28861.00  	29152.00  	31358.00  	14881.00  

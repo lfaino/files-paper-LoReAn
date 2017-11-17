@@ -2,7 +2,7 @@ vr 13 okt 2017 23:02:54 CEST
 
 **Summary Stats**
 Annotation:	Oryza_sativa.IRGSP-1.0.35.gtf
-Predictions:             	augustus.gtf	BAP.gtf   	BAPplus.gtf	genemark-ES.gtf	IRGSP_1.0_genome.MAKER2.gtf	IRGSP-1.0.NonStranded.LoReAn.gtf	IRGSP-1.0.NonStrandedMasked.LoReAn.gtf	IRGSP-1.0.Stranded.LoReAn.gtf	IRGSP-1.0.StrandedMasked.LoReAn.gtf
+Predictions:             	Augustus	BAP   	BAP+	GeneMark-ES	MAKER2	LoReAn	LoReAn_M	LoReAn_s	LoReAn_s_M
 
 Gene Sensitivity         	21.94%    	23.05%    	20.63%    	3.21%     	12.35%    	28.68%    	27.38%    	28.68%    	27.40%    
 Gene Specificity         	16.92%    	17.90%    	20.78%    	1.83%     	16.84%    	27.63%    	35.74%    	27.60%    	35.84%    
@@ -15,7 +15,7 @@ Nucleotide Specificity   	66.73%    	67.05%    	70.56%    	55.01%    	80.83%    
 
 **General Stats**
 Predictions:
-		                         	Oryza_sativa.IRGSP-1.0.35.gtf	augustus.gtf	BAP.gtf   	BAPplus.gtf	genemark-ES.gtf	IRGSP_1.0_genome.MAKER2.gtf	IRGSP-1.0.NonStranded.LoReAn.gtf	IRGSP-1.0.NonStrandedMasked.LoReAn.gtf	IRGSP-1.0.Stranded.LoReAn.gtf	IRGSP-1.0.StrandedMasked.LoReAn.gtf
+		                         	Oryza_sativa.IRGSP-1.0.35.gtf	Augustus	BAP   	BAP+	GeneMark-ES	MAKER2	LoReAn	LoReAn_M	LoReAn_s	LoReAn_s_M
 Gene
 	All                      
 		Count                    	35679.00  	46264.00  	45954.00  	35420.00  	62836.00  	26142.00  	37365.00  	27543.00  	37024.00  	27251.00  
@@ -179,7 +179,7 @@ Signal
 
 **Detailed Stats**
 Annotation:	Oryza_sativa.IRGSP-1.0.35.gtf
-Predictions:	                         augustus.gtf	BAP.gtf   	BAPplus.gtf	genemark-ES.gtf	IRGSP_1.0_genome.MAKER2.gtf	IRGSP-1.0.NonStranded.LoReAn.gtf	IRGSP-1.0.NonStrandedMasked.LoReAn.gtf	IRGSP-1.0.Stranded.LoReAn.gtf	IRGSP-1.0.StrandedMasked.LoReAn.gtf
+Predictions:	                         Augustus	BAP   	BAP+	GeneMark-ES	MAKER2	LoReAn	LoReAn_M	LoReAn_s	LoReAn_s_M
 Gene
 	All
 		Count                    	46264.00  	45954.00  	35420.00  	62836.00  	26142.00  	37365.00  	27543.00  	37024.00  	27251.00  
