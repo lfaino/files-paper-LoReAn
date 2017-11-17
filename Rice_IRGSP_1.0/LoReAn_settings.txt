@@ -1,6 +1,5 @@
-#lorean.py -lr NIP_all.fastq -w braker_nonStrnd  -sr ERR748773_1.filt.fastq,ERR748773_2.filt.fastq -n rice -w braker_nonStrnd -t 30 -q 10000 -ee 50 -pr Arabidopsis_thaliana.TAIR10.31.pep.all.fa -sp rice  Oryza_sativa.IRGSP-1.0.dna.toplevel.mod.fa
-#lorean.py -lr NIP_all.fastq -d -a adapter.fasta -w braker_Strnd -sr ERR748773_1.filt.fastq,ERR748773_2.filt.fastq -n rice -w braker_Strnd -t 30 -q 10000 -ee 50 -pr Arabidopsis_thaliana.TAIR10.31.pep.all.fa -sp rice  Oryza_sativa.IRGSP-1.0.dna.toplevel.mod.fa
-
+lorean.py -lr NIP_all.fastq -w braker_nonStrnd  -sr ERR748773_1.filt.fastq,ERR748773_2.filt.fastq -n rice -w braker_nonStrnd -t 30 -q 10000 -ee 50 -pr Arabidopsis_thaliana.TAIR10.31.pep.all.fa -sp rice  Oryza_sativa.IRGSP-1.0.dna.toplevel.mod.fa
+lorean.py -lr NIP_all.fastq -d -a adapter.fasta -w braker_Strnd -sr ERR748773_1.filt.fastq,ERR748773_2.filt.fastq -n rice -w braker_Strnd -t 30 -q 10000 -ee 50 -pr Arabidopsis_thaliana.TAIR10.31.pep.all.fa -sp rice  Oryza_sativa.IRGSP-1.0.dna.toplevel.mod.fa
 lorean.py -lr NIP_all.fastq -sr ERR748773_1.filt.fastq,ERR748773_2.filt.fastq -n rice -w braker_nonStrndMasked -r Oryza_sativa.IRGSP-1.0.dna_rm.toplevel.mod.bed -t 30 -q 10000 -ee 50 -pr Arabidopsis_thaliana.TAIR10.31.pep.all.fa -sp rice  Oryza_sativa.IRGSP-1.0.dna.toplevel.mod.fa
 lorean.py -lr NIP_all.fastq -d -a adapter.fasta -sr ERR748773_1.filt.fastq,ERR748773_2.filt.fastq -n rice -w braker_StrndMasked -t 30 -r Oryza_sativa.IRGSP-1.0.dna_rm.toplevel.mod.bed -q 10000 -ee 50 -pr Arabidopsis_thaliana.TAIR10.31.pep.all.fa -sp rice  Oryza_sativa.IRGSP-1.0.dna.toplevel.mod.fa
 
